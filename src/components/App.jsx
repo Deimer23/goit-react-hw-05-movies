@@ -35,7 +35,6 @@ export const App = () => {
 
  useEffect(()=>{
    getTrending();
-
   },[])
  
   return (
