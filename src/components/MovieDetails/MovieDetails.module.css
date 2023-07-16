@@ -1,0 +1,29 @@
+.moviedatails{
+    display: flex;
+    gap: 10px;
+    background-color: white;
+    margin-bottom: 5px;
+}
+
+.genres{
+    display: flex;
+    gap: 5px;
+    padding-left: 0px;
+}
+
+.item{
+    list-style: none;
+}
+
+.inf{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.datails{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

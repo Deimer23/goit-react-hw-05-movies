@@ -1,0 +1,27 @@
+.container{
+    background-color: #ccc;
+}
+.nav{
+    width: 100vw;    
+    background-color: white;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar{
+    display: flex;    
+    gap: 10px;
+}
+
+.navbar_item{
+    list-style: none;
+    font-size: 24px;
+    
+}
+
+.navbar_link{
+    text-decoration: none;   
+    color: black;
+    
+}
