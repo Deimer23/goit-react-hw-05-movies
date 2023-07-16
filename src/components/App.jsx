@@ -1,6 +1,6 @@
 import s from "./App.module.css";
 import { lazy, Suspense } from "react";
-import { Route, Routes, Link, NavLink, useLocation } from "react-router-dom";
+import { Route, Routes,  NavLink } from "react-router-dom";
 import styled from "styled-components";
 import { useState, useEffect } from "react";
 import { gettrending } from "requests/api";
@@ -16,9 +16,8 @@ const MovieDetails = lazy(()=>import("./MovieDetails/MovieDetails"));
 const Reviews = lazy(()=> import("./Reviews/Reviews"));
 
 export const App = () => {
-  const loading = true;
-  const [movies, setMovies] = useState([]);
-  const location = useLocation();
+  
+  const [movies, setMovies] = useState([]); 
   const StyledLink = styled(NavLink)`
       color:black;
       &.active{

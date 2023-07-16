@@ -1,5 +1,5 @@
 import s from"./Movie.module.css"
-import { useState, useEffect } from "react"
+import { useState } from "react"
 import { Link, useLocation } from "react-router-dom";
 import { getSearch } from "requests/api";
 import Notiflix from "notiflix";
