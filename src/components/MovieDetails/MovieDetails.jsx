@@ -22,7 +22,7 @@ export const MovieDetails = ()=>{
     
     useEffect(()=>{
         getAsynMovie();        
-    },[]);
+    });
     
     return(
         <>

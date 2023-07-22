@@ -19,7 +19,7 @@ export const Reviews = (props)=>{
 
     useEffect(()=>{
         getAsyncReviews();        
-    },[]);
+    });
 
     return(
         <>

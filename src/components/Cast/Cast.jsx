@@ -13,7 +13,7 @@ export const Cast = ()=>{
 
     useEffect(()=>{
         getAsyncCredit();        
-    },[])
+    })
 
     return(
         <ul className={s.credit}>

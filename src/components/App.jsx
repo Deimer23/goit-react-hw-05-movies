@@ -51,14 +51,14 @@ export const App = () => {
     >   
       <nav className={s.nav}>
         <ul className={s.navbar}>
-          <li className={s.navbar_item}><StyledLink className={s.navbar_link} to='/react-homework-template'>Home</StyledLink></li>
+          <li className={s.navbar_item}><StyledLink className={s.navbar_link} to='/goit-react-hw-05-movies'>Home</StyledLink></li>
           <li className={s.navbar_item}><StyledLink className={s.navbar_link} to='/movies'>Movie</StyledLink></li>          
         </ul>        
       </nav>   
       
       <Routes>
         <Route 
-          path="/react-homework-template"
+          path="/goit-react-hw-05-movies"
           element={<Suspense fallback={<TrendingSkeleton/>}><Home movies={movies}/></Suspense>}
         />             
         <Route 
