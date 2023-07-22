@@ -24,6 +24,7 @@ export const App = () => {
         color:orange
       }
   `;
+  
   const getTrending = async ()=>{
     try {
       const response = await gettrending();
