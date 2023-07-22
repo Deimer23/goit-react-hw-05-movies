@@ -8,7 +8,7 @@ export const MovieDetails = ()=>{
     const [movie, setmovie] = useState([]);
     const {movieId} = useParams("");
     const location = useLocation();
-    const goBack = location.state?.from ?? "/react-homework-template";  
+    const goBack = location.state?.from ?? "/goit-react-hw-05-movies";  
 
     const getAsynMovie = async()=>{
         try {
