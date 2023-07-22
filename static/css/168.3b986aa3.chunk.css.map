@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/168.3b986aa3.chunk.css","mappings":"AAAA,uBACI,qBAAuB,CACvB,cACJ,CAEA,uBACI,YAAe,CACf,gBACJ","sources":["components/Reviews/Reviews.module.css"],"sourcesContent":[".review{\n    background-color: white;   \n    margin-top: 5px; \n}\n\n.tittle{\n    margin-top: 0px;\n    padding-top: 10px;\n}"],"names":[],"sourceRoot":""}
